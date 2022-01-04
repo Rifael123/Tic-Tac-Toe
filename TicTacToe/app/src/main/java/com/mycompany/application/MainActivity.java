@@ -201,6 +201,3 @@ public class MainActivity extends Activity implements View.OnClickListener  {
        }
 	
 } 
-/*don't forget to subscribe my YouTube channel for more Tutorial and mod*/
-/*
-https://youtube.com/channel/UC_lCMHEhEOFYgJL6fg1ZzQA */

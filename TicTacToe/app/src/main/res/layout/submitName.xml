@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="20dp"
+	android:background="@drawable/on_background"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="H O M E"
+		android:textSize="40sp"
+		android:textStyle="bold"
+		android:gravity="center"
+		android:textColor="#FF66B020"
+		android:shadowColor="#FF911212"
+		android:shadowRadius="9.0"
+		android:layout_marginBottom="50dp"
+		android:shadowDy="9.0"/>
+
+	<EditText
+		android:id="@+id/playerOneName"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Player One Name.."
+		android:layout_margin="20dp"
+		android:textColor="#FF0BE5D1"/>
+
+	<EditText
+		android:id="@+id/playerTwoName"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Player Two Name ..."
+        android:textColor="#FF0BE5D1"
+		android:layout_margin="20dp"/>
+
+	<Button
+		android:id="@+id/submit"
+		android:layout_width="100dp"
+		android:layout_height="wrap_content"
+		android:background="#757575"
+        android:layout_margin="20dp"
+		android:text="Submit Name"/>
+
+</LinearLayout>
+
